@@ -1,0 +1,13 @@
+{
+  "hash": "7ef129c9",
+  "browserHash": "99f3e8f6",
+  "optimized": {
+    "lodash-es": {
+      "src": "../../uni_modules/tdesign-uni/node_modules/lodash-es/lodash.js",
+      "file": "lodash-es.js",
+      "fileHash": "48e5ef4c",
+      "needsInterop": false
+    }
+  },
+  "chunks": {}
+}

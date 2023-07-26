@@ -1,0 +1,80 @@
+@import '../uni_modules/tdesign/common/style/_variables.less';
+page {
+  background: #f6f6f6; // 和设计师确认过，统一改成这个颜色
+  
+}
+
+.demo {
+  padding-bottom: 56rpx;
+  // padding-bottom: env(safe-area-inset-bottom, 28px); 小程序真机渲染有bug
+  // padding-bottom: constant(safe-area-inset-bottom, 28px);
+
+  &-title {
+    font-size: 48rpx;
+    font-weight: 700;
+    line-height: 64rpx;
+    margin: 48rpx 32rpx 0;
+    color: rgba(0, 0, 0, 0.9);
+  }
+
+  &-desc {
+    font-size: 28rpx;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 16rpx 32rpx 0;
+    line-height: 44rpx;
+  }
+}
+
+.demo-block {
+  margin: @spacer-4 0 0;
+
+  &__header {
+    color: #000;
+    margin: 0 @spacer-2;
+
+    &-title {
+      font-weight: 700;
+      font-size: 36rpx;
+      line-height: 52rpx;
+    }
+
+    &-desc {
+      margin-top: @spacer;
+      font-size: @font-size-base;
+      white-space: pre-line;
+      color: @font-gray-2;
+      line-height: 22px;
+    }
+  }
+
+  &__oper {
+    margin-top: @spacer;
+
+    &-subtitle {
+      font-size: @font-size-s;
+      margin-bottom: @spacer-2;
+      opacity: 0.4;
+    }
+
+    &-btn {
+      margin: 0 0 @spacer-2 0;
+      height: 48rpx * 2;
+    }
+  }
+
+  &__slot {
+    margin-top: @spacer-2;
+
+    &.with-padding {
+      margin: @spacer-2 @spacer-2 0;
+    }
+  }
+}
+
+.demo-block_notitle {
+  margin-top: 0px;
+
+  .demo-block_subtitle {
+    margin-top: @spacer-3;
+  }
+}
