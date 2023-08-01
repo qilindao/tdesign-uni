@@ -15,13 +15,27 @@
 		</view>
 	</t-radio-group>
 </template>
-<script setup>
-	import {
-		ref
-	} from 'vue';
 
-	const radio = ref(0);
-	const radio1 = ref(0);
+<script>
+	import {
+		ref,
+		defineComponent
+	} from 'vue';
+	export default defineComponent({
+		name: "DemoRadioSpecial",
+		options: {
+			styleIsolation: 'shared',
+		},
+		setup() {
+			const radio = ref(0);
+			const radio1 = ref(0);
+
+			return {
+				radio,
+				radio1,
+			}
+		}
+	});
 </script>
 <style lang="less" scoped>
 	.card {
