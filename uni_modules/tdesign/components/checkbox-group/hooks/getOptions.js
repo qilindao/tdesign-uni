@@ -57,7 +57,6 @@ export const getOptions = (props, slots) => {
 	);
 	// #ifdef H5
 	onMounted(() => {
-		console.log('getOptions', slots)
 		const nodes = slots.default && slots.default();
 		if (nodes !== undefined) {
 			optionList.value = getOptionListBySlots(useChildSlots('t-checkbox'));
