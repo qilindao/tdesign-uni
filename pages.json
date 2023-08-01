@@ -130,6 +130,11 @@
 			"style": {
 				"navigationBarTitleText": "Transition 过渡"
 			}
+		},{
+			"path": "pages/input/rate",
+			"style": {
+				"navigationBarTitleText": "Rate 评分"
+			}
 		}
 	],
 	"globalStyle": {
