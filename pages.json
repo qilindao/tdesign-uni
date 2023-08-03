@@ -135,6 +135,11 @@
 			"style": {
 				"navigationBarTitleText": "Rate 评分"
 			}
+		},{
+			"path": "pages/input/picker",
+			"style": {
+				"navigationBarTitleText": "Picker 选择器"
+			}
 		}
 	],
 	"globalStyle": {
@@ -146,7 +151,7 @@
 	"easycom": {
 		"autoscan": true,
 		"custom": {
-			"t-(.*)": "@/uni_modules/tdesign/components/$1/index.vue"
+			"t-(.*)": "@/uni_modules/tdesign-ui/components/$1/index.vue"
 		}
 	},
 	"uniIdRouter": {}

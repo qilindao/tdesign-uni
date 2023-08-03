@@ -21,6 +21,7 @@
 			<t-cell url='/pages/input/search' title="Search 搜索框" hover arrow></t-cell>
 			<t-cell url='/pages/input/stepper' title="Stepper 步进器" hover arrow></t-cell>
 			<t-cell url='/pages/input/rate' title="Rate 评分" hover arrow></t-cell>
+			<!-- <t-cell url='/pages/input/picker' title="Picker 选择器" hover arrow></t-cell> -->
 		</t-cell-group>
 		<t-cell-group title="数据展示">
 			<t-cell url='/pages/dataV/avatar' title="Avatar 头像" hover arrow></t-cell>

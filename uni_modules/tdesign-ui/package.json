@@ -1,14 +1,15 @@
 {
-  "id": "tdesign",
-  "displayName": "tdesign-uni",
-  "version": "1.0.0",
-  "description": "tdesign-uni",
+  "id": "tdesign-ui",
+  "displayName": "tdesign",
+  "version": "0.1.0",
+  "description": "TDesign 适配uniApp的组件库，只支持 vue 3 技术栈。",
   "keywords": [
-    "tdesign-uni"
-  ],
-  "repository": "",
+    "tdesign",
+    "ui"
+],
+  "repository": "https://github.com/qilindao/tdesign-uni",
   "engines": {
-    "HBuilderX": "^3.1.0"
+    "HBuilderX": "^3.4.15"
   },
   "dcloudext": {
     "type": "component-vue",
@@ -24,9 +25,9 @@
       "qq": "787027175"
     },
     "declaration": {
-      "ads": "",
-      "data": "",
-      "permissions": ""
+      "ads": "无",
+      "data": "插件不采集任何数据",
+      "permissions": "无"
     },
     "npmurl": ""
   },
@@ -35,17 +36,17 @@
     "encrypt": [],
     "platforms": {
       "cloud": {
-        "tcb": "u",
-        "aliyun": "u"
+        "tcb": "y",
+        "aliyun": "y"
       },
       "client": {
         "Vue": {
-          "vue2": "u",
+          "vue2": "n",
           "vue3": "y"
         },
         "App": {
           "app-vue": "u",
-          "app-nvue": "u"
+          "app-nvue": "n"
         },
         "H5-mobile": {
           "Safari": "y",
@@ -55,13 +56,13 @@
         },
         "H5-pc": {
           "Chrome": "y",
-          "IE": "u",
+          "IE": "n",
           "Edge": "u",
           "Firefox": "u",
           "Safari": "u"
         },
         "小程序": {
-          "微信": "y",
+          "微信": "u",
           "阿里": "u",
           "百度": "u",
           "字节跳动": "u",

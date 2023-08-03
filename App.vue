@@ -15,5 +15,5 @@
 <style lang="less">
 	/*每个页面公共css */
 	@import 'static/index.less';
-	@import "@/uni_modules/tdesign/index.less";
+	@import "@/uni_modules/tdesign-ui/index.less";
 </style>

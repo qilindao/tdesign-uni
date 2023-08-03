@@ -58,4 +58,6 @@ export default {
 	zIndex: {
 		type: Number,
 	},
+	/** 当浮层隐藏或显示时触发 */
+	onVisibleChange: Function,
 };
